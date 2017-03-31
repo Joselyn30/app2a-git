@@ -1,0 +1,366 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda aplicacion</title>
+
+ <!--grupo CSS-->
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ <link rel="stylesheet" href="css/tema-app2.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js"></script>
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/celular4.jpg','imagenes/celular6.jpg','imagenes/celular8.jpg','imagenes/celular2.jpg','imagenes/cel1.jpg','imagenes/cel2.jpg','imagenes/cel.jpg','imagenes/tel2.jpg','imagenes/tel4.png')">
+
+ <div data-role="page" id="Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Telefonia celular en Mexico</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/ara.jpg" alt="ara" title="ara" id="wows1_0"/></li>
+		<li><img src="data1/images/at.png" alt="at" title="at" id="wows1_1"/></li>
+		<li><img src="data1/images/cel.jpg" alt="cel" title="cel" id="wows1_2"/></li>
+		<li><img src="data1/images/cel1.jpg" alt="cel1" title="cel1" id="wows1_3"/></li>
+		<li><img src="data1/images/cel2.jpg" alt="cel2" title="cel2" id="wows1_4"/></li>
+		<li><img src="data1/images/celular1.png" alt="celular1" title="celular1" id="wows1_5"/></li>
+		<li><img src="data1/images/celular2.jpg" alt="celular2" title="celular2" id="wows1_6"/></li>
+		<li><img src="data1/images/gamabaja.jpg" alt="gamabaja" title="gamabaja" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/gamalta.jpg" alt="wow slider" title="gamalta" id="wows1_8"/></a></li>
+		<li><img src="data1/images/gamamedia.jpg" alt="gamamedia" title="gamamedia" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="ara"><span><img src="data1/tooltips/ara.jpg" alt="ara"/>1</span></a>
+		<a href="#" title="at"><span><img src="data1/tooltips/at.png" alt="at"/>2</span></a>
+		<a href="#" title="cel"><span><img src="data1/tooltips/cel.jpg" alt="cel"/>3</span></a>
+		<a href="#" title="cel1"><span><img src="data1/tooltips/cel1.jpg" alt="cel1"/>4</span></a>
+		<a href="#" title="cel2"><span><img src="data1/tooltips/cel2.jpg" alt="cel2"/>5</span></a>
+		<a href="#" title="celular1"><span><img src="data1/tooltips/celular1.png" alt="celular1"/>6</span></a>
+		<a href="#" title="celular2"><span><img src="data1/tooltips/celular2.jpg" alt="celular2"/>7</span></a>
+		<a href="#" title="gamabaja"><span><img src="data1/tooltips/gamabaja.jpg" alt="gamabaja"/>8</span></a>
+		<a href="#" title="gamalta"><span><img src="data1/tooltips/gamalta.jpg" alt="gamalta"/>9</span></a>
+		<a href="#" title="gamamedia"><span><img src="data1/tooltips/gamamedia.jpg" alt="gamamedia"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    <div data-role="collapsible" data-content-theme="false">
+     <h1>Telefono celular</h1>
+      <div>
+       <br>
+      </div>
+      <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cel','','imagenes/cel.jpg',1)"><img src="imagenes/telefono.jpg" width="830" height="467" id="cel"></a> </div>
+      </div>
+      </div>
+      <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Definición de telefono </h2>
+           <p>Se muestra la definición del telefono celular</p>
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+            <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Historia de la telefonia celular</h2>
+             <p>Se muestra las historia</p>
+             </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+             <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2> Clasificación de los telefonos celulares</h2>
+              <p>Se muestra las gamas </p>
+              </a>
+             </li>
+             <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Compañias que ofrecen el servicio en Mexico</h2>
+                <p>Muestra las compañias que ofrecen un servicio de telefonia movil </p>
+                </a>
+              </li>
+              <li class="ui-first-child ui-last-child">
+                <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Telefonos del futuro</h2>
+                 <p> Telefonos que existiran dentro de un tiempo</p>
+                 </a>
+              </li>
+              </ul>
+             </div>
+             <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+              <div>
+                <img src="imagenes/logo.png" width="46" height="46">
+               </div>
+               <div>
+                 <h4>Aplicacion Dos</h4>
+                 <h4>Joselyne Muñoz Martinez</h4>
+               </div>
+               </div>
+               </div>
+               
+
+               <div data-role="coll<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                <h1>DEFINICIÓN</h1>
+              </div>
+              <div data-role="content" align="center">
+              <div data-role="collapsible" data-content-theme="false">
+              <h1> CELULAR 1 </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cel1','','imagenes/cel1.jpg',1)"><img src="imagenes/celular1.png" width="413" height="546" id="cel1"></a> </div>
+               </div>
+               <div data-role="collapsible" data-content-theme="false">
+              <h1> CELULAR 2 </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cel2','','imagenes/cel2.jpg',1)"><img src="imagenes/celular2.jpg" width="580" height="290" id="cel2"></a> </div>
+              </div>
+               <h2>Se conoce como celular al dispositivo inalámbrico electrónico que está preparado para tener acceso a la telefonía celular, también conocida como móvil. La telefonía móvil o telefonía celular es un medio de comunicación inalámbrico a través de ondas electromagnéticas. Como cliente de este tipo de redes, se utiliza un dispositivo denominado teléfono móvil o teléfono celular. </h2>
+<div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Dos,JMM</h4>
+              </div>
+             </div>
+            </div>
+           </div>
+            
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Historia de la telefonia celular</h1>
+             </div>
+             <div data-role="content" align="center">
+             <div data-role="collapsible" data-content-theme="false">
+              <h1> CELULAR 1 </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+               <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img1','','imagenes/tel2.jpg',1)"><img src="imagenes/tel1.jpg" width="262" height="192" id="img1"></a></div>
+              </div>
+  </div>
+                <div data-role="content" align="center">
+               <div data-role="collapsible" data-content-theme="false">
+              <h1> CELULAR 2 </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('img2','','imagenes/tel4.png',1)"><img src="imagenes/tel3.jpg" width="200" height="267" id="img2"></a></div>
+              </div>
+              <h2>El teléfono celular se remonta a los inicios de la Segunda Guerra Mundial, donde ya se veía que era necesaria la comunicacióna distancia, es por eso que la compañía Motorola creó un equipo llamado Handie Talkie H12-16, que es un equipo que permite el contacto con las tropas vía ondas de radio que en ese tiempo no superaban más de 600 Khz. En 1985 se comenzaron a perfeccionar y amoldar las características de este nuevo sistema revolucionario ya que permitía comunicarse a distancia. Fue así que en los años 1980 se llegó a crear un equipo que ocupaba recursos similares a los Handie Talkie pero que iba destinado a personas que por lo general eran grandes empresarios y debían estar comunicados, es ahí donde se crea el teléfono móvil y marca un hito en la historia de los componentes inalámbricos ya que con este equipo podría hablar a cualquier hora y en cualquier lugar. 
+              </h2>
+              <div data-role="footer" data-theme="a" data-position="fixed">
+<h4>Aplicacion Dos,JMM</h4>
+              </div>
+            </div>
+            </div>
+            </div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+            <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+              <h1>CLASIFICACION DE LOS TELEFONOS CELULARES</h1>
+             </div>
+             <div data-role="content" align="center">
+              <div data-role="collapsible" data-content-theme="false">
+              <h1> GAMA BAJA </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+                <p>  Es un celular que solo sirve para llamar y recibir llamadas, enviar y recibir sms, pues no tienen internet ni soporte para aplicaciones. </p>
+                <img src="imagenes/gamabaja.jpg" width="40%" height="40%"> 
+               </div>
+               </div>
+               <div data-role="collapsible" data-content-theme="false">
+              <h1> GAMA MEDIA </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+                <p> Es un celular para llamar, enviar mensajes de texto, con internet pero con poca memoria de procesamiento, lento en conexion a internet y con soporte para apps java. </p>
+                <img src="imagenes/gamamedia.jpg" width="40%" height="40%">
+              </div>
+              </div>
+              
+              <div data-role="collapsible" data-content-theme="false">
+              <h1> GAMA ALTA </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+                <p>Celular inteligente con gran capacidad de procesamiento tanto de internet como en archivos,  sin las limitaciones de los de gama baja y media. </p>
+                <img src="imagenes/gamalta.jpg" width="40%" height="40%"> 
+              </div>
+              </div>
+              <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4>Aplicacion Dos,JMM</h4>
+              </div>
+             </div>
+            </div>
+            
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             
+             <h1>COMPAÑIAS QUE OFRECEN EL SERVICIO CELULAR EN MEXICO</h1>
+             </div>
+             <div data-role="content" align="center">
+              <div data-role="collapsible" data-content-theme="false">
+              <h1> TELCEL </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+                <a href="http://www.telcel.com/" target="_self"><img src="imagenes/telcel.jpg" width="50%" height="50%"></a>
+                </div>
+              </div>
+               <div data-role="collapsible" data-content-theme="false">
+              <h1> UNEFON </h1>
+              <div>
+              <br>
+              </div>
+              
+              <div>
+                 <a href="https://www.unefon.com.mx/" target="_self"><img src="imagenes/unefon.jpg" width="50%" height="50%"></a>
+              </div>
+              </div>
+              
+               <div data-role="collapsible" data-content-theme="false">
+              <h1> MOVISTAR</h1>
+              <div>
+              <br>
+              </div>
+              
+              <div>
+     
+                <a href="https://www.movistar.com/" target="_self"><img src="imagenes/movis.png" width="50%" height="50%"></a> 
+              </div>
+              </div>
+              
+              <div data-role="collapsible" data-content-theme="false">
+              <h1> AT&T </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+                <a href="https://www.att.com.mx/" target="_self"><img src="imagenes/at.png"width="50%" height="50%"> </a>
+              </div>
+              </div>
+              
+              <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4>Aplicacion Dos,JMM</h4>
+              </div>
+             </div>
+            </div>
+            </div>
+            
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1> TELEFONOS DEL FUTURO </h1>
+             </div>
+             <div data-role="content" align="center">
+             <div data-role="collapsible" data-content-theme="false">
+              <h1>PROYECTO ARA </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+               <p>Project Ara es el nombre en clave que recibe el teléfono modular de Google, cuyas partes, incluyendo CPU, cámara, batería, etc son intercambiables. Este proyecto lleva ya un tiempo en el aire y podríamos verlo en acción en otoño y para el año que viene ya en el mercado.</p>
+              </div>
+              <div>
+                <img src="imagenes/ara.jpg" width="50%" height="50%"> 
+               </div>
+               </div>
+               <div data-role="collapsible" data-content-theme="false">
+              <h1>NEC TAG</h1>
+              <div>
+              <br>
+              </div>
+              <div>
+               <p>Es un movil wn una correa maleable que le permite tomar diferentes formas para distintos usos.</p>
+              </div>
+              <div>
+                <img src="imagenes/nec tag.jpg" width="50%" height="50%">
+              </div>
+              </div>
+              
+              <div data-role="collapsible" data-content-theme="false">
+              <h1> NOKIA 888</h1>
+              <div>
+              <br>
+              </div>
+              <div>
+               <p>Se usara como un brazalete, siendo flexibley disponiendo de reconocimiento de voz.  </p>
+              </div>
+              <div>
+                <img src="imagenes/nokia888.jpg"width="50%" height="50%"> 
+              </div>
+              </div>
+              
+              <div data-role="collapsible" data-content-theme="false">
+              <h1> Polytron </h1>
+              <div>
+              <br>
+              </div>
+              <div>
+              <p>
+             Una compañía taiwanesa experta en el desarrollo de cristal electrónico de visión óptica.  Cuenta con una pantalla en su interior encapsulada en un armazón realizado en cristal electrónico táctil. Los procesadores y componentes pueden verse en los extremos del prototipo.
+              </p>
+              </div>
+              <div>
+                <img src="imagenes/teltransparente.jpg" width="50%" height="50%"> 
+              </div>
+              </div>
+              <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4>Aplicacion Dos,JMM</h4>
+              </div>
+             </div>
+            </div>
+              
+            
+            
+         
+               
+                                  
+       
+      
+</body>
+</html>
